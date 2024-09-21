@@ -7,9 +7,10 @@
       "args": [
         "-fdiagnostics-color=always",
         "-g",
-        "${file}",
+        "${fileDirname}/main.c",
+        "${fileDirname}/cubo.c",
         "-o",
-        "${fileDirname}/output/${fileBasenameNoExtension}.out"
+        "${fileDirname}/output/programa"
       ],
       "options": {
         "cwd": "${fileDirname}"
